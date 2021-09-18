@@ -1,8 +1,7 @@
 package DigioanBank
 
-open class Pessoa (
-    open var nome: String,
-    open var cpf: String,
-
+abstract class Pessoa (
+     val nome: String,
+     val cpf: String,
 
 )
